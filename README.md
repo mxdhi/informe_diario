@@ -6,7 +6,7 @@ Para ejecutar el script hay que abrir la consola del navegador pulsando F12 y lu
 
 Ejecutar la siguiente línea:
 
-<pre><samp>fetch('https://raw.githubusercontent.com/mxdhi/informe_semanal/main/script.js') .then(response => response.text()) .then(script => eval(script)) .catch(error => console.log(error));</pre></samp>
+<pre><samp>fetch('https://raw.githubusercontent.com/mxdhi/informe_diario/main/script.js') .then(response => response.text()) .then(script => eval(script)) .catch(error => console.log(error));</pre></samp>
 
 ![imagen](https://user-images.githubusercontent.com/126177983/225010417-6607ffcb-9921-4c68-b2c3-4a00ff732e09.png)
 
